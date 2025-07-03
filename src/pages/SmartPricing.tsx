@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -226,7 +225,7 @@ const SmartPricing = () => {
                     <Badge className="bg-yellow-100 text-yellow-800">10-25%</Badge>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm">Low (>24h)</span>
+                    <span className="text-sm">Low (&gt;24h)</span>
                     <Badge className="bg-green-100 text-green-800">0-10%</Badge>
                   </div>
                 </div>

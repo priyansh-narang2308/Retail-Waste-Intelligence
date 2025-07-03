@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -14,7 +13,8 @@ import {
   Clock, 
   CheckCircle,
   Bell,
-  ArrowDown
+  ArrowDown,
+  CircleDollarSign
 } from "lucide-react";
 
 const Inventory = () => {
