@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -165,7 +166,7 @@ const Inventory = () => {
 
           <Card className="border-l-4 border-l-green-500">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium text-green-600">Good Condition (>7 days)</CardTitle>
+              <CardTitle className="text-sm font-medium text-green-600">Good Condition (&gt;7 days)</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-3xl font-bold text-green-600">156</div>
